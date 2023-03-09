@@ -119,3 +119,52 @@ footer {
 .sosmed {
     margin-bottom: 20px;
 }
+
+.border {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin: 20px 22px 22px 22px; 
+    width: 50%;
+    height: 750px;
+
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-in2{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.sign-in-link {
+    padding-bottom: 20px;
+}
+
+.label {
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.in-button{
+    width: 535px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
