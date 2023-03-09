@@ -1,0 +1,121 @@
+* {
+ margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 22px 5px 22px; 
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.navbar-link{
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 22px 22px 22px; 
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.landing-link {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 60px 100px; 
+    width: 50%;
+    margin: 10px 20px 10px 20px;
+}
+
+.landing-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+button {
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: solid;
+    background-color: transparent;
+}
+
+.button-cta {
+    background-color: #BD9696;
+    border-color: #BD9696;
+    border: none;
+}
+
+.landing-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 22px 22px 22px;
+    padding: 50px;  
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.landing-work-title {
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+}
+
+.cards-title {
+    display: flex;
+    padding: 10px 20px 5px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards-text {
+    padding: 10px 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.sosmed {
+    margin-bottom: 20px;
+}
