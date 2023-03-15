@@ -13,6 +13,7 @@
 .logo {
     width: 200px;
     height: auto;
+    padding-bottom: 10px;
 }
 
 .navbar-link{
@@ -167,4 +168,23 @@ footer {
     margin-bottom: 20px;
     margin-top: 20px;
     color: white;
+}
+
+.navbar-hp {
+    border-color: black;
+    border-bottom: solid;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-hp1{
+    justify-content: space-between;
+    justify-content: row;
+}
+
+.navbar-hp2 {
+    border-left: black;
+    justify-content: space-between;
 }
