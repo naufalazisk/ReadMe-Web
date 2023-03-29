@@ -4,35 +4,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleNav.css">
+    <title>Kategori</title>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar-hp">
-        <div class="navbar-hp1"> 
-            <div>
-                <img src="image/ReadMe_Logo.png" class="logo"/>
+    <nav class="navbar">
+        <img src="image/ReadMe_Logo.png" class="logo"/>
+        <div class="content">
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
             </div>
-            <div class="navbar-hp2">
-                <a>Kategori</a>
-                <a>Telusuri</a>
-                <a>Tulis</a>
-            </div>
-            <div class="navbar-hp3">
-                <a>Username</a>
-            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Write</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Notification</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
-    </nav>
+      </nav>
+    
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          menu.classList.add("active");
+          menuBtn.classList.add("hide");
+          cancelBtn.classList.add("show");
+          body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = ()=>{
+          menu.classList.remove("active");
+          menuBtn.classList.remove("hide");
+          cancelBtn.classList.remove("show");
+          body.classList.remove("disabledScroll");
+        }
+    
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
 
     <!-- Body -->
-    <div>
-        <div>
-            <h1> Jelajahi Kategori</h1>
+    <div class="kategori">
+        <div class="judul-kategori">
+            <h1> Kategori 1 Cerita </h1>
         </div>
-        <div>
-            
+        <div class="box-container2">
+            <!-- gambar dan text -->
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
+            <div class="kategori-box"> 
+                <!-- gambar -->
+                <div>
+                    <img class="cover-img" src="image/image 1.jpeg" alt="">
+                </div>
+                <!-- text -->
+                <div class="kategori-text">
+                    <div> <p>Judul Cerita</p></div>
+                    <div> <p>by Penulis</p></div>
+                    <div> <p>Sinopsis dari cerita nanti maks ada 5 line</p></div>
+                </div>
+            </div>
         </div>
     </div>
 
