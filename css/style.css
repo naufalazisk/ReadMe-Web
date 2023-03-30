@@ -119,6 +119,8 @@
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       margin-top: 100;
+       margin-bottom: 0;
        background-color: black;
        text-align: center;
        width: 100%;
