@@ -341,3 +341,8 @@ footer {
     flex-direction: column;
     padding: 10px;
 }
+
+.writeStory-img {
+    height: 70px;
+    width: 40px;
+}
