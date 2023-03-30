@@ -293,16 +293,20 @@ footer {
 .write-body {
     display: flex;
     flex-direction: row;
-    padding: 20px 150px 20px 150px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .write-img {
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .write-cover {
-    height: 300px;
-    width: 220px;
+    height: 400px;
+    width: 250px;
 }
 
 .write-container {
@@ -311,4 +315,29 @@ footer {
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding-top: 10px;
+}
+
+.write-container p {
+    padding: 10px;
+}
+
+.detail-container {
+    padding: 10px;
+}
+
+.detail-judul {
+    width: 700px;
+    height: 30px;
+}
+
+.detail-desc {
+    width: 700px;
+    height: 200px;
+}
+
+.detail-kategori {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
