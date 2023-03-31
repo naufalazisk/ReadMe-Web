@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleNav.css">
+    <title>Perpustakaan</title>
+</head>
+<body>
+        <!-- Navbar -->
+        <div class="box"></div>
+        <nav class="navbar">
+          <img src="image/ReadMe_Logo.png" class="logo"/>
+          <div class="content">
+            <ul class="menu-list">
+              <div class="icon cancel-btn">
+                <i class="fas fa-times"></i>
+              </div>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="write.html">Write</a></li>
+              <li><a href="library.html">Library</a></li>
+              <li><a href="search.html">Search</a></li>
+              <li><a href="notification.html">Notification</a></li>
+            </ul>
+            <div class="icon menu-btn">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+    
+          <script>
+            const body = document.querySelector("body");
+            const navbar = document.querySelector(".navbar");
+            const menu = document.querySelector(".menu-list");
+            const menuBtn = document.querySelector(".menu-btn");
+            const cancelBtn = document.querySelector(".cancel-btn");
+            menuBtn.onclick = ()=>{
+              menu.classList.add("active");
+              menuBtn.classList.add("hide");
+              cancelBtn.classList.add("show");
+              body.classList.add("disabledScroll");
+            }
+            cancelBtn.onclick = ()=>{
+              menu.classList.remove("active");
+              menuBtn.classList.remove("hide");
+              cancelBtn.classList.remove("show");
+              body.classList.remove("disabledScroll");
+            }
+        
+            window.onscroll = ()=>{
+              this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+            }
+          </script>
+</body>
+</html>
