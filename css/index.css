@@ -261,14 +261,14 @@
   font-size: var(--font-size-smi);
 }
 .rectangle-container {
-  left: 210px;
+  left: 300px;
 }
 .group-div {
-  left: 774px;
+  left: 845px;
 }
 .completed-story {
   top: 787px;
-  left: 210px;
+  left: 300px;
   font-size: var(--font-size-11xl);
   display: inline-block;
   width: 290px;
@@ -285,7 +285,7 @@
 }
 .binge-from-start {
   top: 824px;
-  left: 215px;
+  left: 300px;
 }
 .action,
 .adventure,
@@ -368,14 +368,14 @@
   position: absolute;
   top: 90px;
   left: 0;
-  width: 1067px;
+  width: 1050px;
   height: 240.19px;
-  object-fit: cover;
+  object-fit: fill;
 }
 .editors-picks-parent {
   position: absolute;
   top: 1193px;
-  left: 210px;
+  left: 300px;
   width: 1067px;
   height: 330.19px;
   font-size: var(--font-size-11xl);
