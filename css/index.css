@@ -1,0 +1,597 @@
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1512px;
+  height: 313px;
+}
+.about-us {
+  position: absolute;
+  top: 59.62px;
+  left: 702.47px;
+  display: inline-block;
+  width: 108.16px;
+  height: 27.52px;
+}
+.instagram,
+.twitter {
+  top: 0;
+  display: inline-block;
+  width: 76.47px;
+}
+.instagram {
+  position: absolute;
+  left: 0;
+  height: 21.78px;
+}
+.twitter {
+  left: 91.77px;
+}
+.instagram-parent,
+.pinterest,
+.twitter {
+  position: absolute;
+  height: 21.78px;
+}
+.pinterest {
+  top: 0;
+  left: 183.54px;
+  display: inline-block;
+  width: 76.47px;
+}
+.instagram-parent {
+  top: 231.6px;
+  left: 625.99px;
+  width: 260.01px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-molengo);
+}
+.our-journal-planner,
+.our-social-media {
+  position: absolute;
+  display: inline-block;
+}
+.our-social-media {
+  top: 186.88px;
+  left: 647.84px;
+  width: 217.4px;
+  height: 27.52px;
+}
+.our-journal-planner {
+  top: 104.33px;
+  left: 336.49px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-molengo);
+  width: 839.03px;
+  height: 65.35px;
+}
+.footer,
+.group-child {
+  position: absolute;
+  left: 0;
+}
+.footer {
+  top: 1562px;
+  width: 1512px;
+  height: 313px;
+  color: var(--color-white);
+  font-family: var(--font-oriya-mn);
+}
+.group-child {
+  top: 0;
+  border-radius: var(--br-8xs);
+  width: 1054px;
+  height: 385px;
+}
+.sinopsis-dari-cerita,
+.tagline {
+  position: absolute;
+  left: 7px;
+  display: inline-block;
+}
+.tagline {
+  top: 255.32px;
+  width: 77px;
+  height: 24.32px;
+}
+.sinopsis-dari-cerita {
+  top: 288.75px;
+  font-size: var(--font-size-mini);
+  text-align: left;
+  width: 992px;
+  height: 36.09px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1054px;
+  height: 245.18px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 85px;
+  left: 63px;
+  width: 1054px;
+  height: 385px;
+}
+.jangan-lupa-baca,
+.trending {
+  position: absolute;
+  display: inline-block;
+}
+.trending {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  width: 271px;
+  height: 50px;
+}
+.jangan-lupa-baca {
+  top: 40px;
+  left: 37px;
+  width: 509px;
+  height: 41px;
+}
+.group-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1117px;
+  height: 470px;
+}
+.group-item {
+  left: 531px;
+}
+.ellipse-icon,
+.group-child1,
+.group-item {
+  position: absolute;
+  top: 410px;
+  width: 15px;
+  height: 15px;
+}
+.group-inner {
+  top: 410px;
+  left: 565px;
+  width: 15px;
+  height: 15px;
+}
+.group-inner,
+.group-parent {
+  position: absolute;
+}
+.ellipse-icon {
+  left: 599px;
+}
+.group-child1 {
+  left: 633px;
+}
+.group-parent {
+  top: 139px;
+  left: 160px;
+  width: 1117px;
+  height: 470px;
+}
+.halaman-awal-child {
+  position: absolute;
+  top: 610px;
+  left: 223px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1054px;
+  height: 101px;
+}
+.kategori {
+  position: absolute;
+  top: 617px;
+  left: 237px;
+}
+.group-child2 {
+  top: 1.25px;
+}
+.group-child2,
+.group-child3,
+.group-child4,
+.group-child5,
+.group-child6,
+.group-child7,
+.group-child8,
+.rectangle-div {
+  position: absolute;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightgray);
+  height: 38.75px;
+}
+.rectangle-div {
+  top: 1.25px;
+  left: 0;
+  width: 103px;
+}
+.group-child2 {
+  left: 114px;
+  width: 124px;
+}
+.group-child3 {
+  top: 0;
+  left: 249px;
+  width: 87px;
+}
+.group-child4 {
+  top: 1.25px;
+  left: 349px;
+  width: 103px;
+}
+.group-child5,
+.group-child6,
+.group-child7,
+.group-child8 {
+  top: 1.25px;
+}
+.group-child5 {
+  left: 465px;
+  width: 159px;
+}
+.group-child6 {
+  left: 637px;
+  width: 103px;
+}
+.group-child7 {
+  left: 754px;
+  width: 139px;
+}
+.group-child8 {
+  left: 904px;
+  width: 123px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 648px;
+  left: 237px;
+  width: 1027px;
+  height: 40px;
+}
+.halaman-awal-item {
+  position: absolute;
+  top: 757px;
+  left: 0;
+  background-color: #f4f2f2;
+  width: 1512px;
+  height: 406px;
+}
+.group-child9 {
+  position: absolute;
+  top: 56.69px;
+  left: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  box-shadow: 3px 3px 4px #a59999;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 503px;
+  height: 211.31px;
+}
+.parts {
+  top: 109px;
+  left: 185px;
+  width: 99.52px;
+  height: 28.35px;
+}
+.judul,
+.parts,
+.sinopsis-dari-cerita1 {
+  position: absolute;
+  display: inline-block;
+}
+.judul {
+  top: 82px;
+  left: 183px;
+  font-size: var(--font-size-lg);
+  width: 102.21px;
+}
+.sinopsis-dari-cerita1 {
+  top: 141px;
+  left: 207px;
+  text-align: left;
+  width: 245px;
+  height: 64px;
+}
+.group-child10 {
+  position: absolute;
+  top: 88px;
+  left: 358px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkseagreen);
+  width: 94.14px;
+  height: 30.92px;
+}
+.status {
+  position: absolute;
+  top: 96.08px;
+  left: 376.58px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  display: inline-block;
+  width: 53.8px;
+  height: 18.04px;
+}
+.mask-group-icon1 {
+  position: absolute;
+  top: 0;
+  left: 34.97px;
+  width: 150.63px;
+  height: 239.65px;
+  object-fit: cover;
+}
+.completed-story {
+  position: absolute;
+}
+.group-div,
+.rectangle-container {
+  position: absolute;
+  top: 864px;
+  width: 503px;
+  height: 268px;
+  font-size: var(--font-size-smi);
+}
+.rectangle-container {
+  left: 210px;
+}
+.group-div {
+  left: 774px;
+}
+.completed-story {
+  top: 787px;
+  left: 210px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 290px;
+  height: 42px;
+}
+.binge-from-start,
+.comedy,
+.horror {
+  position: absolute;
+  display: inline-block;
+  width: 272px;
+  height: 10px;
+}
+.binge-from-start {
+  top: 824px;
+  left: 215px;
+}
+.comedy,
+.horror {
+  top: 656px;
+}
+.horror {
+  left: 151px;
+}
+.comedy {
+  left: 277px;
+}
+.editors-handpicked-favorites,
+.editors-picks {
+  position: absolute;
+  display: inline-block;
+}
+.editors-picks {
+  top: 0;
+  left: 0;
+  width: 251px;
+  height: 40px;
+}
+.editors-handpicked-favorites {
+  top: 43px;
+  left: 10px;
+  font-size: var(--font-size-xl);
+  width: 311px;
+  height: 32px;
+}
+.group-icon {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 1067px;
+  height: 240.19px;
+  object-fit: cover;
+}
+.editors-picks-parent {
+  position: absolute;
+  top: 1193px;
+  left: 210px;
+  width: 1067px;
+  height: 330.19px;
+  font-size: var(--font-size-11xl);
+}
+.navbar-homepage-child {
+  position: absolute;
+  top: -0.5px;
+  left: 1200.5px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 101px;
+}
+.navbar-homepage-item {
+  position: absolute;
+  height: 1%;
+  width: 100%;
+  top: 99.5%;
+  right: 0;
+  bottom: -0.5%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navbar-homepage-inner {
+  position: absolute;
+  height: 101%;
+  width: 0.07%;
+  top: -0.5%;
+  right: 75.96%;
+  bottom: -0.5%;
+  left: 23.97%;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.username {
+  position: absolute;
+  top: 19.05%;
+  left: 37.07%;
+  font-weight: 500;
+}
+.group-child13 {
+  position: absolute;
+  height: 100%;
+  width: 24.27%;
+  top: 0;
+  right: 75.73%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.username-parent {
+  position: absolute;
+  height: 49.76%;
+  width: 13.56%;
+  top: 27%;
+  right: 3.97%;
+  bottom: 23.24%;
+  left: 82.47%;
+}
+.navbar-homepage-child1 {
+  position: absolute;
+  height: 56.19%;
+  width: 15.51%;
+  top: 24%;
+  right: 80.06%;
+  bottom: 19.81%;
+  left: 4.43%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kategori1 {
+  height: 43%;
+  width: 11.24%;
+  top: 39%;
+  left: 25.66%;
+}
+.kategori1,
+.kategori2,
+.telusuri {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.telusuri {
+  height: 43%;
+  width: 11.24%;
+  top: 39%;
+  left: 39.68%;
+}
+.kategori2 {
+  height: 100%;
+  width: 89.15%;
+  top: 0;
+  left: 0;
+}
+.icon-caret-bottom {
+  position: absolute;
+  height: 18.36%;
+  width: 11.63%;
+  top: 30.23%;
+  right: 0;
+  bottom: 51.41%;
+  left: 88.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kategori-parent {
+  position: absolute;
+  height: 43%;
+  width: 8.53%;
+  top: 39%;
+  right: 65.81%;
+  bottom: 18%;
+  left: 25.66%;
+}
+.tulis {
+  position: absolute;
+  height: 100%;
+  width: 15.84%;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.icon-caret-bottom1,
+.icon-caret-bottom2 {
+  position: absolute;
+  height: 18.36%;
+  width: 3.9%;
+  top: 30.23%;
+  right: 77.92%;
+  bottom: 51.41%;
+  left: 18.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-caret-bottom2 {
+  top: 25.58%;
+  right: 0;
+  bottom: 56.06%;
+  left: 96.1%;
+}
+.tulis-parent {
+  position: absolute;
+  height: 43%;
+  width: 25.46%;
+  top: 39%;
+  right: 2.38%;
+  bottom: 18%;
+  left: 72.16%;
+}
+.icon-magnifying-glass {
+  position: absolute;
+  height: 35%;
+  width: 2.31%;
+  top: 36%;
+  right: 60.98%;
+  bottom: 29%;
+  left: 36.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navbar-homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 100px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+}
+.halaman-awal {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1875px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
