@@ -300,6 +300,9 @@
    
    .write-nav {
        display: flex;
+       margin-top: 115px;
+       margin-left: 220px;
+       margin-right: 200px;
        flex-direction: row;
        justify-content: space-between;
    }
